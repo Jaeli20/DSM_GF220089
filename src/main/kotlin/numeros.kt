@@ -1,14 +1,14 @@
 class numeros {
 
-    var primero:Int = 0
-    var segundo:Int = 0
-    var tercero:Int = 0
+    var primero:Double = 0.0
+    var segundo:Double = 0.0
+    var tercero:Double = 0.0
 
 
 
 
-}fun comprobarNumeroMayor(primero:Int,segundo:Int,tercero:Int): Int{
-    var numeroMayor: Int =0
+}fun comprobarNumeroMayor(primero:Double,segundo:Double,tercero:Double): Double{
+    var numeroMayor: Double =0.0
 
     if (primero>segundo && primero>tercero){
         numeroMayor=primero;
@@ -18,8 +18,8 @@ class numeros {
         numeroMayor=tercero
     }
     return numeroMayor;
-}fun comprobarNumeroMenor(primero:Int,segundo:Int,tercero:Int):Int {
-    var numeroMenor: Int = 0
+}fun comprobarNumeroMenor(primero:Double,segundo:Double,tercero:Double):Double {
+    var numeroMenor: Double = 0.0
 
     if (primero<segundo && primero<tercero){
         numeroMenor=primero;
